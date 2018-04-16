@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
 #world {
   background: #ebe5e7;
   position:absolute;
@@ -17,10 +17,7 @@
   font-size:.9em;
   text-transform: uppercase;
   text-align : center;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 .lightInstructions {
   color:#993f4c;
