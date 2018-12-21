@@ -95,7 +95,7 @@ function handleTouchStart(event) {
 }
 
 function handleTouchEnd(event) {
-    mousePos = {x:windowHalfX, y:windowHalfY};
+    //mousePos = {x:windowHalfX, y:windowHalfY};
     isBlowing = false;
 }
 
@@ -103,6 +103,7 @@ function handleTouchMove(event) {
   if (event.touches.length == 1) {
     event.preventDefault();
 		mousePos = {x:event.touches[0].pageX, y:event.touches[0].pageY};
+    isBlowing = true;
   }
 }
 
